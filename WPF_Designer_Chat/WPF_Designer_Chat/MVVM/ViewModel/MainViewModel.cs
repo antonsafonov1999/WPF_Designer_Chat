@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WPF_Designer_Chat.Icons
+namespace WPF_Designer_Chat.MVVM.ViewModel
 {
-    class Class1
+    class MainViewModel
     {
     }
 }
