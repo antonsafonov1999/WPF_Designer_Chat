@@ -1,17 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace WPF_Designer_Chat.MVVM.Model
 {
-    class ContactModel
+    class MessageModel
     {
         public string Username { get; set; }
+        public string UsernameColor { get; set; }
         public string ImageSource { get; set; }
-        public ObservableCollection<MessageModel> Messages { get; set; }
-        public string LastMessage => Messages.Last().Message;
+        public string Message { get; set; }
+        public DateTime Time { get; set; }
+        public bool IsNativeOrigin { get; set; }
+        public bool? FirstMessage { get; set; }
     }
 }

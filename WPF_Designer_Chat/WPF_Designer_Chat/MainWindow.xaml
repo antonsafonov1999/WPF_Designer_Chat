@@ -81,6 +81,26 @@
                       Grid.Row="1"
                       ItemContainerStyle="{StaticResource ContactCard}"/>
 
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        Background="#292b2f">
+                <Border CornerRadius="25"
+                        Width="25"
+                        Height="25"
+                        Background="#3bff6f"
+                        Margin="18,0,0,0"/>
+                <StackPanel VerticalAlignment="Center">
+                    <Label Content="UserName"
+                           Foreground="White"
+                           FontWeight="SemiBold"
+                           Margin="0,-5,0,-5"/>
+                    <Label Content="Custom Status"
+                           Foreground="Gray"
+                           FontWeight="SemiBold"
+                           FontSize="10"
+                           Margin="0,-8,0,-5"/>
+                </StackPanel>
+            </StackPanel>
         </Grid>
 
     </Grid>
